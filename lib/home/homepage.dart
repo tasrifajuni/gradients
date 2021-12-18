@@ -172,6 +172,11 @@ class HomePage extends StatelessWidget {
                           padding: const EdgeInsets.all(8.0),
                           child: Container(
                             decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                    "https://cdn3.vectorstock.com/i/1000x1000/43/82/math-formulas-and-crayons-drawn-on-a-chalkboard-vector-21724382.jpg"),
+                                fit: BoxFit.cover,
+                              ),
                               color: Colors.blueGrey,
                               borderRadius: BorderRadius.circular(10),
                             ),
